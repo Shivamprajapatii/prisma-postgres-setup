@@ -1,4 +1,4 @@
-## Prisma and Express Setup 
+## Prisma and Express Setup ( Follow Prisma Original Doc if Need)
     - Node  22.0
 ## Intialize node project 
     - npm init -y 
