@@ -1,7 +1,7 @@
 ## Prisma and Express Setup 
     - Node  22.0
 ## Intialize node project 
-    - npm inti -y 
+    - npm init -y 
 ## Install Typescript and Setup 
     - npm install typescript 
     - npx tsc --init
