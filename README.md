@@ -50,3 +50,12 @@
     - docker exec -it 4835e6b2acb7 psql -U postgres -d employeeDB
     - \dt;
     - SELECT * FROM "User";
+
+--------------------------------------------------------------------------------------------
+
+## Point to be noted 
+    - Whenever you made any changes in Schema then dont forgot to run these command 
+    - npx prisma migrate dev
+
+## After that Check local DB does table exist or not then run dokcer build command 
+    - docker run build -t myapp
